@@ -1,38 +1,88 @@
+.list{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+.container{
+  padding: 0;
+}
+
+.header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(231, 208, 241);
+  color: rgb(88, 68, 40);
+  margin-bottom: 100px;
+  width:100%;
+}
+
+
 .App {
+  scroll-behavior: smooth;
+  background-image: url(./back.jpg);
+  background-size: cover;
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+
+
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(51, 50, 50);
+color: white;
+padding: 30px;
+font-size: 15px;
+font-weight: 600;
+margin-top: 100px;
+}
+
+
+.left_align {
+text-align: left;
+padding-left: 80px;
+}
+
+.center_align {
+text-align: center;
+padding-left: 120px;
+padding-right: 100px;
+}
+
+.right_align {
+text-align: right;
+padding-left:80px;
+padding-right: 120px;
+}
+
+.display {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  border-radius: 15px;
+  border-style: double;
+  border-width: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: brown;
+  margin-top: 90px;
 }
